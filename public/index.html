@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-do App</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="icon" href="/images/favicon.png?v=1" />
+    <!--?v1 it's a something doevelopers do to make sure that every think goes will-->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1 class="header__titll">To-Do App</h1>
+        <h2 class="header__subtitle">what do you need to do?</h2>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="actions__container">
+        <input
+          id="input-search"
+          class="input"
+          type="text"
+          placeholder="Search"
+        />
+        <label id="check-box" class="checkbox">
+          <input type="checkbox" /> Hide Completed
+        </label>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="todo"></div>
+      <form id="form">
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter new todo"
+          name="todoTitle"
+        />
+        <button class="button">Add Todo</button>
+      </form>
+    </div>
+    <script src="/scripts/bundle.js"></script>
+  </body>
+</html>
