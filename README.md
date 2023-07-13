@@ -1,8 +1,8 @@
 # To-do-App
-### I had applied my JavaScript skills to do this Project including JavaScript modules, Babel, webpack, dev server and more..
+### I applied my JavaScript skills to do this Project including JavaScript modules, Babel, webpack, dev server and more..
 
 ### this app can :-
-- add new todo
+- add a new todo
 - mark as complete
 - remove todo
 - search todos
